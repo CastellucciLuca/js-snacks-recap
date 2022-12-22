@@ -6,8 +6,8 @@ const {createApp} = Vue;
 createApp({
 	data() {
 		return{
-        evenNumber : [],
-        oddNumber : [],
+        evenNumbers : [],
+        oddNumbers : [],
 		}
 	},
     methods: {
@@ -17,9 +17,9 @@ createApp({
                     const result = response.data.response[0];
                     console.log(result);
                     if (result % 2 == 0){
-                        this.evenNumber.push(result);
+                        this.evenNumbers.push(result);
                     } else {
-                        this.oddNumber.push(result);
+                        this.oddNumbers.push(result);
                     }
                 });
             }
