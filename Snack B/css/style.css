@@ -1,0 +1,19 @@
+*{
+    color: lightgreen;
+}
+body{
+    background-image: url(../img/bg.jpg);
+} 
+#user-number{
+    color:black;
+}
+.box-number{
+    width: 200px;
+    height: 200px;
+    margin: 1rem;
+    background-color: rgb(0, 30, 128);
+}
+.box-number span{
+    font-size: 3rem;
+    color: white;
+}
