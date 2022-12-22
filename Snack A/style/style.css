@@ -1,8 +1,13 @@
+body{
+    background-image: url(../img/bg.png);
+}
 .send{
-    background-color: rgb(255, 224, 47); 
+    background-color: rgb(255, 224, 47);
+    border-radius: 10px;
 }
 .receive{
     background-color: lightskyblue;
+    border-radius: 20px;
     text-align: end;
 }
 .message{
