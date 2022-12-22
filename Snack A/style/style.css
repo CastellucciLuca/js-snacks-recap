@@ -1,0 +1,11 @@
+.send{
+    background-color: rgb(255, 224, 47); 
+}
+.receive{
+    background-color: lightskyblue;
+    text-align: end;
+}
+.message{
+    padding: 2rem;
+    margin: .5rem;
+}
