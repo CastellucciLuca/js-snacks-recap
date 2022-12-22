@@ -40,12 +40,12 @@
                     <h1>Snack Lista Invitati</h1>
                     <input type="text" placeholder="Inserisci il tuo nome" v-show="peopleList.length === 10" v-model="searchName" @keyUp.enter="researchName()">
                     <a href="#" class="ms-2 btn btn-primary" @click="researchName()">Send</a>
-                    <p v-show="searchStart"> {{ (searchResult) ? 'Benvenuto!' : 'Accesso negato' }} </p>
+                    <p v-show="searchStart"> {{(searchResult) ? 'Benvenuto!' : 'Accesso negato' }} </p>
                 </div>
                 <div class="col-6">
                     <h2>Lista Invitati</h2>
                     <ul>
-                        <li v-for="people,index in peopleList"> {{ people }} </li>
+                        <li v-for="people,index in peopleList"> {{people}} </li>
                     </ul>
                 </div>
             </div>
